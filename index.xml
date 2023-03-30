@@ -5,12 +5,20 @@
     <link>https://chMoussa.github.io/</link>
       <atom:link href="https://chMoussa.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Charles Moussa Website</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 30 Mar 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://chMoussa.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Charles Moussa Website</title>
       <link>https://chMoussa.github.io/</link>
     </image>
+    
+    <item>
+      <title>Adaptative VQA Optimizers</title>
+      <link>https://chMoussa.github.io/project/adaptativeqml/</link>
+      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://chMoussa.github.io/project/adaptativeqml/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title></title>
