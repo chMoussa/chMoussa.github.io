@@ -130,6 +130,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9G2K58DHSE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-9G2K58DHSE', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -391,6 +430,9 @@
   
   
   
+  
+  
+  
     
       
       
@@ -464,6 +506,17 @@
         
       
     
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
 
 
@@ -843,6 +896,54 @@
       <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
         PyQTorch is a PyTorch-based state vector simulator designed for quantum machine learning. It acts as the main backend for Qadence, a digital-analog quantum programming interface. pyqtorch allows for writing fully differentiable quantum programs using both digital and analog operations; enabled via a intuitive, torch-based syntax.</p>
       <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Jun 1, 2023</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/publication/vqe-performance-comparison/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Performance comparison of optimization methods on variational quantum algorithms</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+         </p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Mar 1, 2023</p>
+    </div>
+  </div>
+</a>
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/publication/tabu-qaoa/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Tabu-driven quantum neighborhood samplers</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        </p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Apr 7, 2021</p>
     </div>
   </div>
 </a>

@@ -130,6 +130,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9G2K58DHSE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-9G2K58DHSE', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -439,6 +478,9 @@
   
   
   
+  
+  
+  
     
       
       
@@ -512,6 +554,17 @@
         
       
     
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
 
 
@@ -959,6 +1012,38 @@
     </a>
   
               
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/vqe-performance-comparison/"
+    
+  >Performance comparison of optimization methods on variational quantum algorithms
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/unsupervised-learning-qaoa/"
+    
+  >Unsupervised strategies for identifying optimal parameters in Quantum Approximate Optimization Algorithm
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/tabu-qaoa/"
+    
+  >Tabu-driven quantum neighborhood samplers
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/quantum-algorithm-selection/"
+    
+  >To quantum or not to quantum: towards algorithm selection in near-term quantum optimization
+    </a>
+              
             </li></ul>
       </div></li>
         <li class=""><a
@@ -1137,6 +1222,10 @@
 
 
 
+
+<a class="hb-attachment-link hb-attachment-large" href="https://doi.org/10.1088/2058-9565/acef55" target="_blank" rel="noopener">
+  DOI
+</a>
 
 
 
@@ -1570,6 +1659,23 @@ Add the publication's **full text** or **supplementary notes** here. You can use
       
     </div>
     <div class="">
+      
+        <a class="group flex text-right no-underline" href="/publication/vqe-performance-comparison/">
+          <span class="flex flex-col">
+            <span
+              class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+            >Performance comparison of optimization methods on variational quantum algorithms</span
+            >
+            <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+              
+                Mar 1, 2023
+              
+            </span>
+          </span>
+          <span
+            class="mt-[-0.3rem] ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+          ><span class="ltr:inline">&rarr;</span></span>
+        </a>
       
     </div>
   </div>
