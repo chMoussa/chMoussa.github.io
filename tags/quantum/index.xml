@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quantum | Charles Moussa</title>
+    <link>https://chmoussa.github.io/tags/quantum/</link>
+      <atom:link href="https://chmoussa.github.io/tags/quantum/index.xml" rel="self" type="application/rss+xml" />
+    <description>Quantum</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chmoussa.github.io/media/icon_hu372837326745646127.png</url>
+      <title>Quantum</title>
+      <link>https://chmoussa.github.io/tags/quantum/</link>
+    </image>
+    
+    <item>
+      <title>PyQTorch</title>
+      <link>https://chmoussa.github.io/project/pyqtorch/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://chmoussa.github.io/project/pyqtorch/</guid>
+      <description>&lt;p&gt;PyQTorch is a PyTorch-based state vector simulator designed for quantum machine learning. It acts as the main backend for Qadence, a digital-analog quantum programming interface. pyqtorch allows for writing fully differentiable quantum programs using both digital and analog operations; enabled via a intuitive, torch-based syntax.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Qadence</title>
+      <link>https://chmoussa.github.io/project/qadence/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://chmoussa.github.io/project/qadence/</guid>
+      <description>&lt;p&gt;Qadence is a Python package that provides a simple interface to build digital-analog quantum programs with tunable qubit interactions and arbitrary register topologies realizable on neutral atom devices.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>qadence-protocols</title>
+      <link>https://chmoussa.github.io/project/qadence_protocols/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://chmoussa.github.io/project/qadence_protocols/</guid>
+      <description>&lt;p&gt;Qadence-Protocols is a Python package that provides extra functionality, namely error mitigation and measurement protocols, for Qadence.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

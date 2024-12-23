@@ -1,31 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Charles Moussa Website</title>
-    <link>https://chMoussa.github.io/project/</link>
-      <atom:link href="https://chMoussa.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <title>Projects | Charles Moussa</title>
+    <link>https://chmoussa.github.io/project/</link>
+      <atom:link href="https://chmoussa.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 30 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://chMoussa.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>https://chmoussa.github.io/media/icon_hu372837326745646127.png</url>
       <title>Projects</title>
-      <link>https://chMoussa.github.io/project/</link>
+      <link>https://chmoussa.github.io/project/</link>
     </image>
     
     <item>
-      <title>Adaptative VQA Optimizers</title>
-      <link>https://chMoussa.github.io/project/adaptativeqml/</link>
-      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://chMoussa.github.io/project/adaptativeqml/</guid>
-      <description></description>
+      <title>PyQTorch</title>
+      <link>https://chmoussa.github.io/project/pyqtorch/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://chmoussa.github.io/project/pyqtorch/</guid>
+      <description>&lt;p&gt;PyQTorch is a PyTorch-based state vector simulator designed for quantum machine learning. It acts as the main backend for Qadence, a digital-analog quantum programming interface. pyqtorch allows for writing fully differentiable quantum programs using both digital and analog operations; enabled via a intuitive, torch-based syntax.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Hyperparameter Importance of Quantum Neural Networks Across Small Datasets</title>
-      <link>https://chMoussa.github.io/project/hyperparameterimportance/</link>
-      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://chMoussa.github.io/project/hyperparameterimportance/</guid>
-      <description></description>
+      <title>Qadence</title>
+      <link>https://chmoussa.github.io/project/qadence/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://chmoussa.github.io/project/qadence/</guid>
+      <description>&lt;p&gt;Qadence is a Python package that provides a simple interface to build digital-analog quantum programs with tunable qubit interactions and arbitrary register topologies realizable on neutral atom devices.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>qadence-protocols</title>
+      <link>https://chmoussa.github.io/project/qadence_protocols/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://chmoussa.github.io/project/qadence_protocols/</guid>
+      <description>&lt;p&gt;Qadence-Protocols is a Python package that provides extra functionality, namely error mitigation and measurement protocols, for Qadence.&lt;/p&gt;</description>
     </item>
     
   </channel>
