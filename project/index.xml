@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>Horqrux</title>
+      <link>https://chmoussa.github.io/project/horqrux/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://chmoussa.github.io/project/horqrux/</guid>
+      <description>&lt;p&gt;horqrux is a JAX-based state vector and density matrix simulator designed for quantum machine learning and acts as a backend for Qadence, a digital-analog quantum programming interface.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>PyQTorch</title>
       <link>https://chmoussa.github.io/project/pyqtorch/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>

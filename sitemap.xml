@@ -10,6 +10,34 @@
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://chmoussa.github.io/tags/derivation/</loc>
+    <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://chmoussa.github.io/publication/agpsr/</loc>
+    <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://chmoussa.github.io/publication_types/paper-conference/</loc>
+    <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://chmoussa.github.io/publication_types/</loc>
+    <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://chmoussa.github.io/publication/</loc>
+    <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://chmoussa.github.io/tags/quantum/</loc>
+    <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://chmoussa.github.io/tags/</loc>
+    <lastmod>2025-06-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://chmoussa.github.io/projects/</loc>
     <lastmod>2024-12-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -31,10 +59,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://chmoussa.github.io/tags/markdown/</loc>
-    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://chmoussa.github.io/tags/</loc>
     <lastmod>2023-10-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -114,18 +138,6 @@
     <lastmod>2023-09-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://chmoussa.github.io/publication_types/paper-conference/</loc>
-    <lastmod>2023-09-17T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://chmoussa.github.io/publication_types/</loc>
-    <lastmod>2023-09-17T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://chmoussa.github.io/publication/</loc>
-    <lastmod>2023-09-17T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://chmoussa.github.io/tags/quantum-inspired/</loc>
     <lastmod>2023-09-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -136,6 +148,10 @@
   </url><url>
     <loc>https://chmoussa.github.io/publication/adaptative-qml/</loc>
     <lastmod>2023-09-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://chmoussa.github.io/project/horqrux/</loc>
+    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://chmoussa.github.io/project/</loc>
@@ -151,10 +167,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://chmoussa.github.io/project/qadence_protocols/</loc>
-    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://chmoussa.github.io/tags/quantum/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
